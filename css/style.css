@@ -1,0 +1,11 @@
+.navbar{
+  text-align: center;
+  margin-left: 42%;
+
+}
+#star{
+  background-image: url(../assets/star.png);
+  height: 191px;
+  background-repeat: no-repeat;
+  border-color: red;
+}
