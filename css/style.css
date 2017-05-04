@@ -3,9 +3,14 @@
   margin-left: 42%;
 
 }
-#star{
+.container-fluid{
   background-image: url(../assets/star.png);
-  height: 191px;
-  background-repeat: no-repeat;
-  border-color: red;
+  background-size: cover;
+
+}
+#submitbtn{
+  margin-left: 42%;
+  border-color: #B0E0E6;
+  background-color: transparent;
+
 }

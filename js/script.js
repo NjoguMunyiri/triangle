@@ -1,3 +1,7 @@
+
+alert("fufu");
+
+{
 if (!(((a+b)<=c)||((a+c)<=b)||((b+c)<=a))) {
     if (b===c&&c===a) {
         show("Equilateral");
@@ -10,4 +14,6 @@ if (!(((a+b)<=c)||((a+c)<=b)||((b+c)<=a))) {
     }
 } else {
     alert("Not a triangle");
+}
+
 }
