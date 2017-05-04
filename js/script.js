@@ -8,16 +8,17 @@ $(document).ready(function() {
   {
   if (!(((a+b)<=c)||((a+c)<=b)||((b+c)<=a))) {
       if (b===c&&c===a) {
-          alert("Equilateral");
+          $("#Equilateral").show();
+
       } else {
         if (b===a||b===c||a===c) {
-          alert("isosceles");
+          alert("Isosceles");
         } else {
-          alert("unequal sides");
+          alert("Scalene");
         }
       }
   } else {
-      alert("Not a triangle");
+      alert("The Measurements do Not form a triangle");
   }
 
 }

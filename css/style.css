@@ -14,3 +14,7 @@
   background-color: transparent;
 
 }
+#Equilateral, #Isosceles, #Scalene {
+  image-orientation: center;
+  display:none;
+}
