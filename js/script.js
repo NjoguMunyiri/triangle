@@ -7,7 +7,7 @@ $(document).ready(function() {
   alert(a);
   alert(b);
   alert(c);
-/*  {
+  {
   if (!(((a+b)<=c)||((a+c)<=b)||((b+c)<=a))) {
       if (b===c&&c===a) {
           show("Equilateral");
@@ -22,7 +22,7 @@ $(document).ready(function() {
       alert("Not a triangle");
   }
 
-}*/
+}
 
 });
 });
