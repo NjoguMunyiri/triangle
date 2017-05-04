@@ -4,18 +4,16 @@ $(document).ready(function() {
   var a = parseInt($("#heightinput").val());
   var b = parseInt($("#baseinput").val());
   var c = parseInt($("#hypotenusinput").val());
-  alert(a);
-  alert(b);
-  alert(c);
+
   {
   if (!(((a+b)<=c)||((a+c)<=b)||((b+c)<=a))) {
       if (b===c&&c===a) {
-          show("Equilateral");
+          alert("Equilateral");
       } else {
         if (b===a||b===c||a===c) {
-          show("isosceles");
+          alert("isosceles");
         } else {
-          show("unequal sides");
+          alert("unequal sides");
         }
       }
   } else {
