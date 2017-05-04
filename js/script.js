@@ -8,13 +8,19 @@ $(document).ready(function() {
   {
   if (!(((a+b)<=c)||((a+c)<=b)||((b+c)<=a))) {
       if (b===c&&c===a) {
-          $("#Equilateral").show();
+            $("#Equilateral").show();
+            $("#Isosceles").hide();
+            $("#Scalene").hide();
 
       } else {
         if (b===a||b===c||a===c) {
-          alert("Isosceles");
+          $("#Equilateral").hide();
+          $("#Isosceles").show();
+          $("#Scalene").hide();
         } else {
-          alert("Scalene");
+          $("#Equilateral").hide();
+          $("#Isosceles").hide();
+          $("#Scalene").show();
         }
       }
   } else {
@@ -22,6 +28,6 @@ $(document).ready(function() {
   }
 
 }
-
+  event.preventDefault();
 });
 });
