@@ -1,13 +1,13 @@
+#row1{
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
 .navbar{
   text-align: center;
   margin-left: 42%;
 
 }
-.container-fluid{
-  background-image: url(../assets/star.png);
-  background-size: cover;
 
-}
 #submitbtn{
   margin-left: 42%;
   border-color: #B0E0E6;
