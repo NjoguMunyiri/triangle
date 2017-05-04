@@ -8,7 +8,7 @@ $(document).ready(function() {
   {
   if (!(((a+b)<=c)||((a+c)<=b)||((b+c)<=a))) {
       if (b===c&&c===a) {
-          $("#Equilateral").show();
+          $("#Equilateral").fadeIn();
 
       } else {
         if (b===a||b===c||a===c) {
